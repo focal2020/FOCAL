@@ -1,6 +1,8 @@
 ﻿
 # Introduction
 
+This repository is for a paper under submission.
+
 FOCAL (Sa**f**er Br**o**wsing with Priva**c**y Enh**a**nced B**l**acklisting) is an integrated open-sourced Privacy-enhanced Safe Browsing platform. It enables a Safe Browsing proxy server by leveraging Intel SGX and users can proactively select blacklists. 
 
 For demonstration purpose, we have provided the following instructions to set up docker-enabled server-side service.

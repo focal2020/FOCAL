@@ -1,0 +1,13 @@
+observations: eCrime URLs docompose may contain "google.com/" hash prefix 88981e62, may need filter something like "docs.google.com/forms/d/e/1FAIpQLSdDSST20DZ7H7Akxi0rhzhrmlpSlvLVCO2I5OPwUyI717geHA/viewform"
+
+gc suspicious.txt | select -first 736 | sblookup -apikey=AIzaSyCLn0rYOgSus58mJugJBp-d3OwUCN_YW4g > onlinetest.txt
+gc historyhits.txt | select -first 65 | sblookup -apikey=AIzaSyCLn0rYOgSus58mJugJBp-d3OwUCN_YW4g
+
+12/01/2018 a whole year's my browsing history
+
+wset.com/
+b8ede210
+https://www.alexa.com/siteinfo/wset.com
+
+myvidster.com/
+cdc18ec4

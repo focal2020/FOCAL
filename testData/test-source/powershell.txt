@@ -1,0 +1,8 @@
+start @(echo $(Get-Content canondeduped.txt | Select -Index (100..200)) | ForEach-Object {"microsoft-edge:http://$_"})
+
+$urls = Get-Content canondeduped.txt | Select -Index (100..200) | ForEach-Object {"microsoft-edge:http://$_"}
+$urls = Get-Content edge.txt | Select -Index (1..100) | ForEach-Object {"microsoft-edge:http://$_"}
+
+for ($i=1; $i -lt 100; $i++) {
+     start $urls[$i]
+}
